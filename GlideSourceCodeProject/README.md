@@ -1,5 +1,9 @@
 ## 说明文档
 
+
+[TOC]
+
+
 ### 策略模式
 
 [策略模式](https://github.com/simple-android-framework/android_design_patterns_analysis/tree/master/strategy/gkerison)的使用

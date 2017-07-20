@@ -39,7 +39,7 @@ public abstract class AbstractExam {
     }
 
     /**
-     * 签到离开
+     * 离开
      */
     public final void finish() {
         System.out.println("***start***");
