@@ -20,3 +20,26 @@
 ### 装饰模式
 
 [装饰模式]()的使用
+
+### 模版方法模式
+
+[模版方法模式](https://github.com/simple-android-framework/android_design_patterns_analysis/tree/master/template-method/mr.simple)的使用
+
+执行结果：
+
+```json
+***start***
+---进入考场---
+---签到---
+---需要领取计算器&尺子---
+---完成答题---
+---走出考场---
+***end***
+***start***
+---进入考场---
+---签到---
+---需要领取听力耳机---
+---完成答题---
+---走出考场---
+***end***
+```
