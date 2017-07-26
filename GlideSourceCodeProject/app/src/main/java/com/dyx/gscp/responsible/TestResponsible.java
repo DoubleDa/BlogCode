@@ -19,13 +19,11 @@ public class TestResponsible {
         //处理离职请求
         Request requestHr = new DimissionRequest();
         hr.handleRequest(requestHr);
-
         System.out.println("*******************");
 
         //处理加薪请求
         Request requestPm = new AddMoneyRequest();
         pm.handleRequest(requestPm);
-
         System.out.println("*******************");
 
         //处理请假请求
