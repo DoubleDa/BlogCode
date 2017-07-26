@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_66 (Oracle Corporation)
+
+Name: assets/package_meta.txt
+SHA1-Digest: 2jAKbCypLQZbnlYizeOZVQ62+Ic=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: LgJDuTRpgh09BCgP8dd0RFMtrzE=
+
+Name: resources.arsc
+SHA1-Digest: DusTVOYtJTaP+ZJD0f9w/cSABxA=
+
+Name: assets/only_use_to_test_tinker_resource.txt
+SHA1-Digest: 0hDOMk1uWmkEPB3FP6r29AqdwR4=
+
+Name: classes.dex
+SHA1-Digest: CCYAmJFOmuUgZcUk89HyfGD53Ro=
+
+Name: assets/dex_meta.txt
+SHA1-Digest: sxh76SM5P1zH4g55DnyHSp6bMLE=
+
+Name: assets/res_meta.txt
+SHA1-Digest: +arAM4SB6ba2SjPMN4hBSzmUgv4=
+
+Name: test.dex
+SHA1-Digest: JQ6I/qo62WRfO8A5LZy1vaQmpYE=
+

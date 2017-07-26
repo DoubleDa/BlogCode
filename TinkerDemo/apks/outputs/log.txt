@@ -1,0 +1,58 @@
+-----------------------Tinker patch begin-----------------------
+configuration: 
+oldApk:/Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/app-release-old.apk
+newApk:/Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/app-release-new.apk
+outputFolder:/Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/outputs
+isIgnoreWarning:false
+7-ZipPath:7za
+useSignAPk:true
+package meta fields: 
+filed name:patchMessage, filed value:classes.dex
+filed name:platform, filed value:all
+dex configs: 
+dexMode: jar
+dexPattern:assets/secondary-dex-.\.jar
+dexPattern:classes.*\.dex
+dex loader:com.tencent.tinker.loader.*
+dex loader:com.dyx.td.tinker.MyTinkerApplication
+lib configs: 
+libPattern:lib/.*/.*\.so
+resource configs: 
+resPattern:AndroidManifest\.xml
+resPattern:assets/.*
+resPattern:resources\.arsc
+resPattern:res/.*
+resIgnore change:assets/sample_meta\.txt
+largeModSize:100kb
+useApplyResource:false
+
+Analyze old and new apk files:
+old apk: app-release-old.apk, size=1631338, md5=03a3a3f0efdbaa6ec6f6d99ec6de5f94
+new apk: app-release-new.apk, size=1631742, md5=888de47009506b9b3857512d138700d2
+UnZipping apk to /Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/outputs/app-release-old
+UnZipping apk to /Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/outputs/app-release-new
+Check for loader classes in dex: classes.dex
+Found modify resource: res/layout/activity_main.xml
+Found large modify resource: resources.arsc size:224264
+
+Gen classes.dex patch file:/Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/outputs/tinker_result/classes.dex, size:5766, md5:171f97a54be554f7cf0e9b661638c76e
+Verifying if patched new dex is logically the same as original new dex: app-release-new/classes.dex ...
+
+Gen classes.dex for dalvik full dex file:/Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/outputs/tempPatchedDexes/classes.dex, size:2640428, md5:432eba4bb0005fd4f604e15e198b27f5
+DexDecoder:write meta file data: classes.dex,,432eba4bb0005fd4f604e15e198b27f5,432eba4bb0005fd4f604e15e198b27f5,171f97a54be554f7cf0e9b661638c76e,3631436951,jar
+
+Add test install result dex: /Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/outputs/tinker_result/test.dex, size:584
+DexDecoder:write test dex meta file data: test.dex,,56900442eb5b7e1de45449d0685e6e00,56900442eb5b7e1de45449d0685e6e00,0,0,jar
+Add Test resource file: assets/only_use_to_test_tinker_resource.txt
+Final normal zip resource: resources_out.zip, size=528737, md5=f747d8d844e7462a58164fe63508f9e7
+7a patch file failed, you should set the zipArtifact, or set the path directly
+Generate unsigned apk: patch_unsigned.apk
+Signing apk: patch_signed.apk
+Signing key algorithm is SHA1withRSA
+Try use 7za to compress the patch file: patch_signed_7zip.apk, will cost much more time
+Current 7za path:7za
+7a patch file failed, you should set the zipArtifact, or set the path directly
+Result: final signed patch result: /Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/outputs/patch_signed.apk, size=20328
+Tinker patch done, total time cost: 2.739000s
+Tinker patch done, you can go to file to find the output /Users/dayongxin/Desktop/Github/BlogCode/TinkerDemo/apks/outputs
+-----------------------Tinker patch end-------------------------

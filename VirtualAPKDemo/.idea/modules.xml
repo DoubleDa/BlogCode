@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VirtualAPKDemo.iml" filepath="$PROJECT_DIR$/VirtualAPKDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_logutils/lib_logutils.iml" filepath="$PROJECT_DIR$/lib_logutils/lib_logutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_virtualapk/lib_virtualapk.iml" filepath="$PROJECT_DIR$/lib_virtualapk/lib_virtualapk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin_main/plugin_main.iml" filepath="$PROJECT_DIR$/plugin_main/plugin_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin_search/plugin_search.iml" filepath="$PROJECT_DIR$/plugin_search/plugin_search.iml" />
+    </modules>
+  </component>
+</project>

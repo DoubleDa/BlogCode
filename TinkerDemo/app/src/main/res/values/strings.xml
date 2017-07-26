@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TinkerDemo</string>
+    <string name="str_btn_load_patch">加载patch文件</string>
+    <string name="str_new_btn_load_patch">新增按钮</string>
+</resources>

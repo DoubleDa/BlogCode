@@ -1,0 +1,1 @@
+include ':app', ':lib_virtualapk', ':plugin_main', ':plugin_search', ':lib_logutils'

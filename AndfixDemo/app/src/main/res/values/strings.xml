@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndfixDemo</string>
+    <string name="str_btn_add_bug">产生bug</string>
+    <string name="str_btn_fix_bug">修复bug</string>
+</resources>

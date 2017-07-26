@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: R06yWRHTQ13P9yiG60dPSt+w44I=
+SHA1-Digest-Manifest: BDf3Y8bNXCqf16IV9d//E/gr/yM=
+Created-By: 1.8.0_66 (Oracle Corporation)
+
+Name: assets/package_meta.txt
+SHA1-Digest: 0GxJH2Mr17gFlECv140FN/Tc7e4=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: NXISI7YDI6nlIp2BV0LCTx/xJo8=
+
+Name: resources.arsc
+SHA1-Digest: +CIwMfhWF+opVGxSCiEjGT3NCYs=
+
+Name: assets/only_use_to_test_tinker_resource.txt
+SHA1-Digest: 4LmW7LVvS3uEBefUZ25tbHXKme0=
+
+Name: classes.dex
+SHA1-Digest: 2RzWlDd+X/BQ/UfXtLMSFh5C6kY=
+
+Name: assets/dex_meta.txt
+SHA1-Digest: YXhFV2b0hkEoobCeYR16EF0QSCk=
+
+Name: assets/res_meta.txt
+SHA1-Digest: cfG1tModJa/tocejcr/X3En9k2s=
+
+Name: test.dex
+SHA1-Digest: 9jlJZZ+dKgQJh75auwJdN+fX1hg=
+

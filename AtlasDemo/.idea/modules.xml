@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AtlasDemo.iml" filepath="$PROJECT_DIR$/AtlasDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle-first/bundle-first.iml" filepath="$PROJECT_DIR$/bundle-first/bundle-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle-public/bundle-public.iml" filepath="$PROJECT_DIR$/bundle-public/bundle-public.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle-remote/bundle-remote.iml" filepath="$PROJECT_DIR$/bundle-remote/bundle-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle-second/bundle-second.iml" filepath="$PROJECT_DIR$/bundle-second/bundle-second.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-activitygroupcompat/lib-activitygroupcompat.iml" filepath="$PROJECT_DIR$/lib-activitygroupcompat/lib-activitygroupcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-middleware/lib-middleware.iml" filepath="$PROJECT_DIR$/lib-middleware/lib-middleware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-splashscreen/lib-splashscreen.iml" filepath="$PROJECT_DIR$/lib-splashscreen/lib-splashscreen.iml" />
+    </modules>
+  </component>
+</project>

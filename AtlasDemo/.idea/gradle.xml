@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bundle-first" />
+            <option value="$PROJECT_DIR$/bundle-public" />
+            <option value="$PROJECT_DIR$/bundle-remote" />
+            <option value="$PROJECT_DIR$/bundle-second" />
+            <option value="$PROJECT_DIR$/lib-activitygroupcompat" />
+            <option value="$PROJECT_DIR$/lib-middleware" />
+            <option value="$PROJECT_DIR$/lib-splashscreen" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

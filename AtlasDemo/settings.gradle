@@ -1,0 +1,1 @@
+include ':app', ':bundle-first', ':bundle-second', ':bundle-remote', ':bundle-public', ':lib-middleware', ':lib-splashscreen', ':lib-activitygroupcompat'
