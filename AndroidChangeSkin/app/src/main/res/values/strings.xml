@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidChangeSkin</string>
+    <string name="str_rb_red">红色</string>
+    <string name="str_rb_blue">蓝色</string>
+    <string name="str_rb_green">绿色</string>
+    <string name="str_rb_orange">橙色</string>
+    <string name="str_btn_view_one">页面一</string>
+    <string name="str_btn_view_two">页面二</string>
+    <string name="str_btn_view_three">页面三</string>
+    <string name="str_btn_back">返回</string>
+</resources>
