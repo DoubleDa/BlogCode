@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/na_rx_rp_as"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/str_na_rx_rp_as" />
+
+    <item
+        android:id="@+id/na_rx_okhttp"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/str_na_rx_okhttp" />
+
+    <item
+        android:id="@+id/na_rx_retrofit"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/str_na_rx_retrofit" />
+    <item
+        android:id="@+id/na_rxbus"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/str_na_rxbus" />
+
+    <item
+        android:id="@+id/na_rxlifecycle"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/str_na_rxlifecycle" />
+
+</menu>

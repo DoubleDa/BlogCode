@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidRxJavaAdvance</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="str_na_rx_rp_as">替换AsyncTask</string>
+    <string name="str_na_rx_okhttp">结合OkHttp</string>
+    <string name="str_na_rx_retrofit">结合Retrofit</string>
+    <string name="str_na_rxbus">RxBus</string>
+    <string name="str_na_RxBinding">na_RxBinding</string>
+    <string name="str_na_rxlifecycle">RxLifecycle</string>
+    <string name="str_na_rxbinding">RxBinding</string>
+    <string name="str_btn_my_rxbus">简单RxBus</string>
+    <string name="str_btn_library_rxbus">使用RxBus库</string>
+    <string name="str_btn_rxbinding">RxBinding</string>
+    <string name="hint_et_rxbinding">简单EditText</string>
+    <string name="hint_et_search">搜索EditText</string>
+</resources>
