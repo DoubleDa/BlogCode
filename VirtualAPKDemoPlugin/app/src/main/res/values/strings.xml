@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VirtualAPKDemoPlugin</string>
+    <string name="str_tv_plugin">这是插件！</string>
+</resources>
