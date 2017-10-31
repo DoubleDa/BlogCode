@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadNativeApk() {
         String pluginPath = Environment.getExternalStorageDirectory().getAbsolutePath().concat("/Plugin.apk");
-        Logger.d(pluginPath);
         File plugin = new File(pluginPath);
         if (null == plugin) {
             Logger.d("plugin apk is null!");
