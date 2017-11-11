@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RecyclerViewAllProject</string>
+    <string name="str_tv_person">姓名</string>
+    <string name="str_btn_send">按钮</string>
 </resources>

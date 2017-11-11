@@ -70,7 +70,7 @@ public class TinkerService extends Service {
         HttpClientManager.getInstance().downloadPatch(mPatchInfoModel.getPatchUrl(), mPatchFile, new DownloadListener() {
             @Override
             public void onSuccess(String successMsg) {
-                TinkerManager.loadPatch(mPatchFile);
+                TinkerManager.loadPatch(mPatchFile, successMsg);
             }
 
             @Override
@@ -106,6 +106,9 @@ public class TinkerService extends Service {
         init();
     }
 
+    /**
+     * 初始化patch文件存储目录
+     */
     private void init() {
         mPatchFileDir = getExternalCacheDir().getAbsolutePath() + "/tpatch/";
         File mFile = new File(mPatchFileDir);

@@ -73,7 +73,7 @@ public class TinkerManager {
 
     public static void loadPatch(String patchPath, String md5Value) {
         if (Tinker.isTinkerInstalled()) {
-            //TODO 进行patch文件校验
+            //进行patch文件校验
             mCustomPatchListener.setCurrentFileMD5(md5Value);
             TinkerInstaller.onReceiveUpgradePatch(getTinkerContext(), patchPath);
         }
