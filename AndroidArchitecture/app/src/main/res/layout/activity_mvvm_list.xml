@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="java.util.ArrayList" />
+
+        <import type="java.util.HashMap" />
+
+        <variable
+            name="list"
+            type="ArrayList&lt;String>" />
+
+        <variable
+            name="map"
+            type="Map&lt;String,String&gt;" />
+
+        <variable
+            name="arrays"
+            type="String[]" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{list.get(0)}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{map.get('age')}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{arrays[0]}" />
+    </LinearLayout>
+</layout>

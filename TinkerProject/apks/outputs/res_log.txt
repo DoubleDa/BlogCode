@@ -1,0 +1,19 @@
+modify resource: res/layout/activity_main.xml, oldSize=552, newSize=692
+modify resource: res/layout/notification_template_lines_media.xml, oldSize=2880, newSize=2880
+modify resource: res/layout/notification_template_media.xml, oldSize=1440, newSize=1440
+modify resource: res/layout/notification_template_media_custom.xml, oldSize=2856, newSize=2856
+modify resource: res/layout/notification_template_part_chronometer.xml, oldSize=448, newSize=448
+modify resource: res/layout/notification_template_part_time.xml, oldSize=448, newSize=448
+modify resource: res/layout-v11/notification_media_action.xml, oldSize=616, newSize=616
+modify resource: res/layout-v11/notification_media_cancel_action.xml, oldSize=792, newSize=792
+modify resource: res/layout-v11/notification_template_big_media.xml, oldSize=1844, newSize=1844
+modify resource: res/layout-v11/notification_template_big_media_custom.xml, oldSize=3144, newSize=3144
+modify resource: res/layout-v11/notification_template_big_media_narrow.xml, oldSize=1924, newSize=1924
+modify resource: res/layout-v11/notification_template_big_media_narrow_custom.xml, oldSize=3268, newSize=3268
+modify resource: res/layout-v21/notification_action.xml, oldSize=1172, newSize=1172
+modify resource: res/layout-v21/notification_action_tombstone.xml, oldSize=1348, newSize=1348
+modify resource: res/layout-v21/notification_template_custom_big.xml, oldSize=2500, newSize=2500
+modify resource: res/layout-v21/notification_template_icon_group.xml, oldSize=996, newSize=996
+large modify resource: resources.arsc, oldSize=224760, newSize=224800
+add test resource: assets/only_use_to_test_tinker_resource.txt, oldSize=0, newSize=24
+Final normal zip resource: resources_out.zip, size=529442, md5=4250ced8948edc70c9e109f06350fb15

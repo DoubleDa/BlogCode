@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidArchitecture</string>
+    <string name="str_et_username">用户名</string>
+    <string name="str_et_password">密码</string>
+    <string name="str_btn_login">登陆</string>
+    <string name="str_btn_next">按钮</string>
+</resources>

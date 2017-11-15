@@ -1,0 +1,72 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_66 (Oracle Corporation)
+
+Name: res/layout-v11/notification_template_big_media_narrow.xml
+SHA1-Digest: 4yttVn19PS5vrGu8vlVG0BgDQV8=
+
+Name: res/layout-v21/notification_action_tombstone.xml
+SHA1-Digest: reeR7GhV/A3WStKFs7nqhivR99Q=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: 1opO6k4+RFYf4uWnwtSsoJIX4uM=
+
+Name: res/layout-v11/notification_media_action.xml
+SHA1-Digest: koeBoml96ICcc5gEuu/jAk2g8w8=
+
+Name: res/layout-v21/notification_template_icon_group.xml
+SHA1-Digest: NVQq3wKemDKrcyosiUTefiH5/gM=
+
+Name: res/layout-v21/notification_action.xml
+SHA1-Digest: Jc71jPqNUH+z4WSCkvHTihJrA7o=
+
+Name: assets/dex_meta.txt
+SHA1-Digest: sEZ4oM8PjrqGxLrsp7wsTdBa4Lk=
+
+Name: assets/res_meta.txt
+SHA1-Digest: eBnI1I8t09/mL0nIL7e0Eug+rx0=
+
+Name: test.dex
+SHA1-Digest: JQ6I/qo62WRfO8A5LZy1vaQmpYE=
+
+Name: res/layout/notification_template_part_chronometer.xml
+SHA1-Digest: Id8NPXy+yYeyunG8EVesJvF3aKo=
+
+Name: assets/package_meta.txt
+SHA1-Digest: nCXyTDZ+XPyD1Afg8uY2CWDQeA8=
+
+Name: res/layout/notification_template_part_time.xml
+SHA1-Digest: b96JcCrrV4WsEUCToFL9pMF25Hs=
+
+Name: res/layout/notification_template_media.xml
+SHA1-Digest: Pck+2rLca7s8NyoGnY1WbUY0uag=
+
+Name: res/layout-v11/notification_template_big_media_narrow_custom.xml
+SHA1-Digest: 0kHZW3szrdc8vdieyRLjNzjdOzg=
+
+Name: res/layout-v11/notification_media_cancel_action.xml
+SHA1-Digest: e6aIc2hmdJL07wt9N/rt45NI0Ao=
+
+Name: res/layout/notification_template_media_custom.xml
+SHA1-Digest: lhX0ZWdSZn3L1ra/R/JdF+p6Oj4=
+
+Name: res/layout/notification_template_lines_media.xml
+SHA1-Digest: 8Mg3HMP3Y0lfIYOg9ZkR0JxctVM=
+
+Name: res/layout-v11/notification_template_big_media.xml
+SHA1-Digest: ugvszEh2MvFnv6CrHIqs5edEQpE=
+
+Name: res/layout-v21/notification_template_custom_big.xml
+SHA1-Digest: 1BacGEzXk89IxXjd2lhwVqAz/Pk=
+
+Name: resources.arsc
+SHA1-Digest: O6CAhgpRpgyQAUyScDWl6UtFpNs=
+
+Name: assets/only_use_to_test_tinker_resource.txt
+SHA1-Digest: 0hDOMk1uWmkEPB3FP6r29AqdwR4=
+
+Name: classes.dex
+SHA1-Digest: b6s875/OU/WMVKtzGxGVza20e/Y=
+
+Name: res/layout-v11/notification_template_big_media_custom.xml
+SHA1-Digest: pDzq6MnhdRbX748/2uaD1BO9Cts=
+

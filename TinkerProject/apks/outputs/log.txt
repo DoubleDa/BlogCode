@@ -1,0 +1,73 @@
+-----------------------Tinker patch begin-----------------------
+configuration: 
+oldApk:/Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/old.apk
+newApk:/Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/new.apk
+outputFolder:/Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/outputs
+isIgnoreWarning:false
+7-ZipPath:7za
+useSignAPk:true
+package meta fields: 
+filed name:patchMessage, filed value:classes.dex
+filed name:platform, filed value:all
+dex configs: 
+dexMode: jar
+dexPattern:assets/secondary-dex-.\.jar
+dexPattern:classes.*\.dex
+dex loader:com.tencent.tinker.loader.*
+dex loader:com.dyx.tp.tinker.MyTinkerApplication
+lib configs: 
+libPattern:lib/.*/.*\.so
+resource configs: 
+resPattern:AndroidManifest\.xml
+resPattern:assets/.*
+resPattern:resources\.arsc
+resPattern:res/.*
+resIgnore change:assets/sample_meta\.txt
+largeModSize:100kb
+useApplyResource:false
+
+Analyze old and new apk files:
+old apk: old.apk, size=1591902, md5=3641b666864a8304c99c900ff2e934ef
+new apk: new.apk, size=1592166, md5=7a0aaa3c1726a270544fbadfdbca02b0
+UnZipping apk to /Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/outputs/old
+UnZipping apk to /Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/outputs/new
+Check for loader classes in dex: classes.dex
+Found modify resource: res/layout/activity_main.xml
+Found modify resource: res/layout/notification_template_lines_media.xml
+Found modify resource: res/layout/notification_template_media.xml
+Found modify resource: res/layout/notification_template_media_custom.xml
+Found modify resource: res/layout/notification_template_part_chronometer.xml
+Found modify resource: res/layout/notification_template_part_time.xml
+Found modify resource: res/layout-v11/notification_media_action.xml
+Found modify resource: res/layout-v11/notification_media_cancel_action.xml
+Found modify resource: res/layout-v11/notification_template_big_media.xml
+Found modify resource: res/layout-v11/notification_template_big_media_custom.xml
+Found modify resource: res/layout-v11/notification_template_big_media_narrow.xml
+Found modify resource: res/layout-v11/notification_template_big_media_narrow_custom.xml
+Found modify resource: res/layout-v21/notification_action.xml
+Found modify resource: res/layout-v21/notification_action_tombstone.xml
+Found modify resource: res/layout-v21/notification_template_custom_big.xml
+Found modify resource: res/layout-v21/notification_template_icon_group.xml
+Found large modify resource: resources.arsc size:224800
+
+Gen classes.dex patch file:/Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/outputs/tinker_result/classes.dex, size:8046, md5:9930b3190bf5625260e9c2bf19b20e2d
+Verifying if patched new dex is logically the same as original new dex: new/classes.dex ...
+
+Gen classes.dex for dalvik full dex file:/Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/outputs/tempPatchedDexes/classes.dex, size:2522992, md5:5e9c4bcb57975f556d5e0ad1e1a02b5b
+DexDecoder:write meta file data: classes.dex,,5e9c4bcb57975f556d5e0ad1e1a02b5b,5e9c4bcb57975f556d5e0ad1e1a02b5b,9930b3190bf5625260e9c2bf19b20e2d,1675867196,jar
+
+Add test install result dex: /Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/outputs/tinker_result/test.dex, size:584
+DexDecoder:write test dex meta file data: test.dex,,56900442eb5b7e1de45449d0685e6e00,56900442eb5b7e1de45449d0685e6e00,0,0,jar
+Add Test resource file: assets/only_use_to_test_tinker_resource.txt
+Final normal zip resource: resources_out.zip, size=529442, md5=4250ced8948edc70c9e109f06350fb15
+7a patch file failed, you should set the zipArtifact, or set the path directly
+Generate unsigned apk: patch_unsigned.apk
+Signing apk: patch_signed.apk
+Signing key algorithm is SHA1withRSA
+Try use 7za to compress the patch file: patch_signed_7zip.apk, will cost much more time
+Current 7za path:7za
+7a patch file failed, you should set the zipArtifact, or set the path directly
+Result: final signed patch result: /Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/outputs/patch_signed.apk, size=21174
+Tinker patch done, total time cost: 2.648000s
+Tinker patch done, you can go to file to find the output /Users/dayongxin/Desktop/Blog_Code/BlogCode/TinkerProject/apks/outputs
+-----------------------Tinker patch end-------------------------

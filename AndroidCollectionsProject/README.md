@@ -1,0 +1,4 @@
+- [Java集合学习指南](http://wiki.jikexueyuan.com/project/java-collection/)
+- [Java集合框架](http://www.runoob.com/java/java-collections.html)
+- [Android内存优化（使用SparseArray和ArrayMap代替HashMap）](http://blog.csdn.net/u010687392/article/details/47809295)
+- [HashMap，ArrayMap，SparseArray源码分析及性能对比](http://www.jianshu.com/p/7b9a1b386265)

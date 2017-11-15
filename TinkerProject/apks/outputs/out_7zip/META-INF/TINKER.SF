@@ -1,0 +1,74 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: R06yWRHTQ13P9yiG60dPSt+w44I=
+SHA1-Digest-Manifest: 1DcJYJeV9Kukt6k3RQYeOy02DSc=
+Created-By: 1.8.0_66 (Oracle Corporation)
+
+Name: res/layout-v11/notification_template_big_media_narrow.xml
+SHA1-Digest: VWDdy+bsBmPxvG2aUCuuKg1egNM=
+
+Name: res/layout-v21/notification_action_tombstone.xml
+SHA1-Digest: oT7DmRKUL6kYXcXOxTuWZtExXlU=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: P8T/pQhlFZr30sGqcBEBWl1GurY=
+
+Name: res/layout-v11/notification_media_action.xml
+SHA1-Digest: bUa9cGvy7c/34wJ+/0P5ILyfp3A=
+
+Name: res/layout-v21/notification_template_icon_group.xml
+SHA1-Digest: JKZ6tXb96DBGXslbT997aynMf5c=
+
+Name: res/layout-v21/notification_action.xml
+SHA1-Digest: RH+UVW5cMQ2P/gz6qMSwyTwcRZw=
+
+Name: assets/dex_meta.txt
+SHA1-Digest: mzp5eSkFDClZu7OHI0yxFcsUt3w=
+
+Name: assets/res_meta.txt
+SHA1-Digest: BVS0y1jA/yPhBpkC/2ndXcqMKMs=
+
+Name: test.dex
+SHA1-Digest: 9jlJZZ+dKgQJh75auwJdN+fX1hg=
+
+Name: res/layout/notification_template_part_chronometer.xml
+SHA1-Digest: ls4egraulnKF2K36LIr/o4E9sS0=
+
+Name: assets/package_meta.txt
+SHA1-Digest: Rt58FJmArb7KZsxrt3zOnQpZAtw=
+
+Name: res/layout/notification_template_part_time.xml
+SHA1-Digest: B0DpeBykdVSCXY+VPwmrBD68Hro=
+
+Name: res/layout/notification_template_media.xml
+SHA1-Digest: UrSwCYV9OVWzEYMdQKQi43XC/2I=
+
+Name: res/layout-v11/notification_template_big_media_narrow_custom.xml
+SHA1-Digest: v9j5vU6fuUPTz/yeH8qfboVqH+U=
+
+Name: res/layout-v11/notification_media_cancel_action.xml
+SHA1-Digest: WPE3+BORp6E6eCLT51KZdCTXoYU=
+
+Name: res/layout/notification_template_media_custom.xml
+SHA1-Digest: IwqJBqgRWlmlQWjERgvB25lnfVE=
+
+Name: res/layout/notification_template_lines_media.xml
+SHA1-Digest: iq7rC6KftME6huCVDIOtt5aECR8=
+
+Name: res/layout-v11/notification_template_big_media.xml
+SHA1-Digest: z9esTYQdikc3VjAk1rn8iz5nDPQ=
+
+Name: res/layout-v21/notification_template_custom_big.xml
+SHA1-Digest: KY3ypTO3qZJS1EKlqN1uUpxHmSE=
+
+Name: resources.arsc
+SHA1-Digest: DNrt9IU0GZHXxKRizfVgaQKuVUg=
+
+Name: assets/only_use_to_test_tinker_resource.txt
+SHA1-Digest: 4LmW7LVvS3uEBefUZ25tbHXKme0=
+
+Name: classes.dex
+SHA1-Digest: wqEhi2nfY28R8iXbQLqqE6R7AyQ=
+
+Name: res/layout-v11/notification_template_big_media_custom.xml
+SHA1-Digest: MtY11Fpq6ozBPoH+ZA3AQKM+zQU=
+

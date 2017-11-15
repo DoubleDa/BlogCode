@@ -1,0 +1,4 @@
+ext {
+    //启用tinker
+    tinkerEnabled = true
+}
