@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidInterviewService</string>
+    <string name="str_btn_start">启动</string>
+    <string name="str_btn_stop">停止</string>
+    <string name="str_btn_bind">绑定</string>
+    <string name="str_btn_unbind">解绑</string>
+    <string name="str_btn_status">获取状态</string>
+    <string name="str_btn_send_broadcast">发送广播</string>
+    <string name="str_et_input">请输入要查询的序号...</string>
+    <string name="str_btn_query">查询</string>
+</resources>

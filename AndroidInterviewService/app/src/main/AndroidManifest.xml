@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dyx.ais">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".service5.IPCServiceAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".service1.MyService1">
+            <intent-filter>
+                <action android:name="com.dyx.ais.service1.MY_SERVICE1" />
+            </intent-filter>
+        </service>
+        <service android:name=".service1.MyService2">
+            <intent-filter>
+                <action android:name="com.dyx.ais.service1.MY_SERVICE2" />
+            </intent-filter>
+        </service>
+        <service android:name=".service2.MyIntentService">
+            <intent-filter>
+                <action android:name="com.dyx.ais.service2.MY_INTENT_SERVICE" />
+            </intent-filter>
+        </service>
+        <service android:name=".service2.NotificationService">
+            <intent-filter>
+                <action android:name="com.dyx.ais.service2.NOTIFICATION_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".MainActivity" />
+        <service android:name=".service2.LongTimeRunningService" />
+        <receiver android:name=".service2.AlarmReceiver" />
+
+        <service android:name=".service3.AIDLService">
+            <intent-filter>
+                <action android:name="com.dyx.ais.service3.AIDLService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name=".services4.ComplexAIDLService">
+            <intent-filter>
+                <action android:name="com.dyx.ais.services4.COMPLEX_AIDL_SERVICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service5.IPCService">
+            <intent-filter>
+                <action android:name="com.dyx.ais.service5.IPCService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

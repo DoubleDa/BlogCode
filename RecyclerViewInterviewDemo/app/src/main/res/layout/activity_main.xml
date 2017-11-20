@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dyx.rvid.MainActivity">
+
+    <Button
+        android:id="@+id/btn_rv_refresh_withme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_rv_refresh_withme" />
+
+    <Button
+        android:id="@+id/btn_btn_rv_refresh_with_library"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_btn_rv_refresh_with_library" />
+
+    <Button
+        android:id="@+id/btn_btn_rv_add_header_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_btn_rv_add_header_view" />
+
+
+    <Button
+        android:id="@+id/btn_btn_rv_add_foot_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_btn_rv_add_foot_view" />
+</LinearLayout>

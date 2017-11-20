@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerViewInterviewDemo</string>
+    <string name="btn_rv_refresh_withme">使用系统SwipeRefreshLayout</string>
+    <string name="str_btn_btn_rv_refresh_with_library">使用第三方刷新框架</string>
+    <string name="str_btn_btn_rv_add_header_view">添加头布局</string>
+    <string name="str_btn_btn_rv_add_foot_view">添加尾部布局</string>
+</resources>
