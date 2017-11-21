@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidMvpRxDagger2Project</string>
+    <string name="str_socket_timeout_exception">Socket请求超时异常</string>
+    <string name="str_connect_exception">网络连接异常！</string>
+    <string name="str_btn_login">登录</string>
+    <string name="str_et_username">用户名...</string>
+    <string name="str_et_password">密码...</string>
+    <string name="str_login_success">登录成功！</string>
+</resources>
