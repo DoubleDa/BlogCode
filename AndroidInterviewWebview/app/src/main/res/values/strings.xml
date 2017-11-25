@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidInterviewWebview</string>
+    <string name="str_btn_start">启动</string>
+</resources>

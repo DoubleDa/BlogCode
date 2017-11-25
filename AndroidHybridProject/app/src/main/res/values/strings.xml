@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidHybridProject</string>
+    <string name="str_btn_java_call_web">Java调用Web</string>
+</resources>
