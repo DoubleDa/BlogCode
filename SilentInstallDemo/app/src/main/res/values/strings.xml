@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="str_test_silent_install">测试静默安装</string>
+    <string name="str_current_version">当前版本：</string>
+</resources>
