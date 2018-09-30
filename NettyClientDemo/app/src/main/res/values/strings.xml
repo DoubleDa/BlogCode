@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NettyClientDemo</string>
+    <string name="hint_address">服务器IP地址</string>
+    <string name="hint_port">服务器端口号</string>
+    <string name="str_connect_server">连接服务器</string>
+    <string name="str_not_null">IP地址和端口号不能为空！</string>
+    <string name="str_connect_success">连接成功！</string>
+    <string name="str_connect_error">连接出错！</string>
+    <string name="str_test_connect">1、测试连接</string>
+    <string name="str_test_long_connect">2、测试长连接</string>
+    <string name="str_test_connect_long_server">测试长连接</string>
+</resources>
